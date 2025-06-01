@@ -1,0 +1,17 @@
+model,method,rbound,stage,acc,params,params_ratio,flops,flops_ratio
+mobilenet,amc,1.0,ft,85.55,802018,98.79,14715568,98.58
+mobilenet,amc,1.0,search,85.50,802018,98.79,14715568,98.58
+mobilenet,amc,0.8,ft,85.31,528086,65.05,10019224,67.12
+mobilenet,amc,0.8,search,77.59,528086,65.05,10019224,67.12
+mobilenet,sensitivity,1.0,ft,85.73,782034,96.33,14396866,96.45
+mobilenet,sensitivity,1.0,search,85.79,782034,96.33,14396866,96.45
+mobilenet,sensitivity,0.8,ft,85.42,524927,64.66,10123940,67.82
+mobilenet,sensitivity,0.8,search,78.58,524927,64.66,10123940,67.82
+resnet,amc,1.0,ft,91.97,9090707,81.36,130237140,92.78
+resnet,amc,1.0,search,90.83,9090707,81.36,130237140,92.78
+resnet,amc,0.8,ft,92.00,6560296,58.71,112828588,80.38
+resnet,amc,0.8,search,89.02,6560296,58.71,112828588,80.38
+resnet,sensitivity,1.0,ft,91.96,10882298,97.39,137304348,97.81
+resnet,sensitivity,1.0,search,90.82,10882298,97.39,137304348,97.81
+resnet,sensitivity,0.8,ft,91.92,5926712,53.04,104041116,74.12
+resnet,sensitivity,0.8,search,86.12,5926712,53.04,104041116,74.12
