@@ -1,0 +1,90 @@
+>>> MobileNet_CIFAR
+    Params: 811,850
+    FLOPs: 14,926,858.0
+
+>>> ResNet18_CIFAR
+    Params: 11,173,962
+    FLOPs: 140,377,098.0
+
+============================================================
+
+>>> mobilenet_amc_r0.5_ep200_ft.pt
+    Top1 Acc: 85.55%
+    Params: 802,018 (98.79%)
+    FLOPs: 14,715,568.0 (98.58%)
+
+>>> mobilenet_amc_r0.5_ep200_search.pt
+    Top1 Acc: 85.50%
+    Params: 802,018 (98.79%)
+    FLOPs: 14,715,568.0 (98.58%)
+
+>>> mobilenet_amc_r0.5_rbound0.8_ep300_ft.pt
+    Top1 Acc: 85.31%
+    Params: 528,086 (65.05%)
+    FLOPs: 10,019,224.0 (67.12%)
+
+>>> mobilenet_amc_r0.5_rbound0.8_ep300_search.pt
+    Top1 Acc: 77.59%
+    Params: 528,086 (65.05%)
+    FLOPs: 10,019,224.0 (67.12%)
+
+>>> mobilenet_sensitivity_r0.5_ep200_ft.pt
+    Top1 Acc: 85.73%
+    Params: 782,034 (96.33%)
+    FLOPs: 14,396,866.0 (96.45%)
+
+>>> mobilenet_sensitivity_r0.5_ep200_search.pt
+    Top1 Acc: 85.79%
+    Params: 782,034 (96.33%)
+    FLOPs: 14,396,866.0 (96.45%)
+
+>>> mobilenet_sensitivity_r0.5_rbound0.8_ep300_ft.pt
+    Top1 Acc: 85.42%
+    Params: 524,927 (64.66%)
+    FLOPs: 10,123,940.0 (67.82%)
+
+>>> mobilenet_sensitivity_r0.5_rbound0.8_ep300_search.pt
+    Top1 Acc: 78.58%
+    Params: 524,927 (64.66%)
+    FLOPs: 10,123,940.0 (67.82%)
+
+>>> resnet_amc_r0.5_ep200_ft.pt
+    Top1 Acc: 91.97%
+    Params: 9,090,707 (81.36%)
+    FLOPs: 130,237,140.0 (92.78%)
+
+>>> resnet_amc_r0.5_ep200_search.pt
+    Top1 Acc: 90.83%
+    Params: 9,090,707 (81.36%)
+    FLOPs: 130,237,140.0 (92.78%)
+
+>>> resnet_amc_r0.5_rbound0.8_ep300_ft.pt
+    Top1 Acc: 92.00%
+    Params: 6,560,296 (58.71%)
+    FLOPs: 112,828,588.0 (80.38%)
+
+>>> resnet_amc_r0.5_rbound0.8_ep300_search.pt
+    Top1 Acc: 89.02%
+    Params: 6,560,296 (58.71%)
+    FLOPs: 112,828,588.0 (80.38%)
+
+>>> resnet_sensitivity_r0.5_ep200_ft.pt
+    Top1 Acc: 91.96%
+    Params: 10,882,298 (97.39%)
+    FLOPs: 137,304,348.0 (97.81%)
+
+>>> resnet_sensitivity_r0.5_ep200_search.pt
+    Top1 Acc: 90.82%
+    Params: 10,882,298 (97.39%)
+    FLOPs: 137,304,348.0 (97.81%)
+
+>>> resnet_sensitivity_r0.5_rbound0.8_ep300_ft.pt
+    Top1 Acc: 91.92%
+    Params: 5,926,712 (53.04%)
+    FLOPs: 104,041,116.0 (74.12%)
+
+>>> resnet_sensitivity_r0.5_rbound0.8_ep300_search.pt
+    Top1 Acc: 86.12%
+    Params: 5,926,712 (53.04%)
+    FLOPs: 104,041,116.0 (74.12%)
+
