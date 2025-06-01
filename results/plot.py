@@ -23,4 +23,5 @@ for model in df['model'].unique():
     plt.grid(True)
     plt.tight_layout()
     plt.savefig(f"{model}_acc_flops.png")
+    plt.savefig(f"{model}_acc_flops.pdf")
     # plt.show()
